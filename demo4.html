@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .box1 {
+        width: 200px;
+        height: 200px;
+        border: 1px solid red;
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 2s linear;
+        background-image: url(./image/1.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-variant: small-caps;
+        font-size: large;
+        color: azure;
+        text-shadow: 10px;
+        text-transform: capitalize;
+      }
+      .box1:hover {
+        transform: rotate(360deg);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <h1>TransForm Property :</h1> -->
+    <div class="box1">Hello Pankaj</div>
+  </body>
+</html>

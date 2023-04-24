@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      header {
+        background-color: #e0e0e0;
+        height: 4rem;
+        position: fixed;
+        width: 100%;
+      }
+      .des {
+        border: 3px solid rgb(130, 105, 105);
+        border-radius: 5px;
+        font-size: large;
+        font-style: italic;
+        display: inline-block;
+        position: relative;
+        left: 12rem;
+        top: 1.4rem;
+        padding: 1px;
+        /* margin-top: 10px;
+        margin-left: 30px;
+        text-align: center; */
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+      }
+      nav ul {
+        display: flex;
+        justify-content: left;
+        text-align: center;
+        list-style: none;
+        gap: 10px;
+        /* font-weight: lighter; */
+        /* font-size: large; */
+        font-style: normal;
+        /* text-shadow: 150px; */
+        text-transform: uppercase;
+        /* border: 2px solid green; */
+        width: 50%;
+      }
+      nav ul :hover {
+        text-decoration: none;
+        background-color: #1e88e5;
+        border-radius: 5px;
+      }
+      nav ul a {
+        text-decoration: none;
+        color: #2c3e50;
+      }
+      nav ol {
+        display: flex;
+        justify-content: flex-end;
+        /* border: 2px solid red; */
+        width: 15%;
+        text-align: right;
+        list-style: none;
+
+        text-transform: uppercase;
+        gap: 10px;
+      }
+      nav ol :hover {
+        text-decoration: none;
+        background-color: #1e88e5;
+        border-radius: 5px;
+      }
+      nav ol a {
+        text-decoration: none;
+        color: #2c3e50;
+      }
+      img {
+        margin: 10px;
+        /* padding: 20px; */
+      }
+      #d1 {
+        display: inline-block;
+        /* border: 1px solid red; */
+        width: 400px;
+        height: 100px;
+        position: relative;
+        left: 65rem;
+        bottom: 20rem;
+      }
+      h4 {
+        color: black;
+        font-size: large;
+        /* font-style: ; */
+        text-transform: uppercase;
+      }
+      p {
+        margin-top: 10px;
+      }
+      input {
+        background-color: #00c853;
+        padding: 10px;
+        margin-top: 20px;
+        border-radius: 8px;
+      }
+      input:hover {
+        background-color: #00c853;
+        color: aliceblue;
+        /* font-size: large; */
+      }
+      #i1 {
+        font-size: medium;
+        font-style: italic;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="des">Soylent</div>
+      <nav>
+        <ul>
+          <li><a href="https://google.com">Drink</a></li>
+          <li><a href="">Cafe</a></li>
+          <li><a href="">Powder</a></li>
+          <li><a href="">All Products</a></li>
+        </ul>
+
+        <ol>
+          <li><a href="">LogIn</a></li>
+          <li><a href="">Refer</a></li>
+          <li><a href="">Cart[10]</a></li>
+        </ol>
+      </nav>
+    </header>
+    <img src="./AbyaRVo_1200x.webp" alt="" width="99%" height="500px" />
+    <div id="d1">
+      <h4>Fruit is back.</h4>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, illum
+        molestiae! Aspernatur debitis autem nihil blanditiis eaque quaerat error
+        minima, molestias modi alias, quae libero cum perspiciatis beatae, ullam
+        consequatur?
+        <input type="button" name="" id="i1" value="Shop Now" />
+      </p>
+    </div>
+  </body>
+</html>
